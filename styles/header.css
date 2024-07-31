@@ -1,0 +1,59 @@
+header {
+    padding-block: 12rem 18.3rem;
+    background: url(../assets/images/Background_Intro.png) no-repeat center/cover;
+}
+
+header div {
+    position: relative;
+
+    p:first-child {
+        font: var(--subtitle);
+        margin-block: 5.6rem 8px;
+        color: var(--gray-500);
+
+        span {
+            color: var(--red);
+        }
+    }
+
+    h1 {
+        font: var(--title-lg);
+        margin-bottom: 2rem;
+
+        color: var(--gray-600);
+
+    }
+
+    &>p:last-child {
+        max-width: 68rem;
+        margin: 0 auto 8rem;
+        color: var(--gray-400);
+        font: var(--text-sm);
+    }
+
+    ul {
+        max-width: fit-content;
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 1.6rem;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            background-color: var(--gray-300);
+            padding: 8px 1.6rem;
+            border-radius: 99.9rem;
+
+            font: var(--text-md);
+            color: var(--gray-500);
+        }
+    }
+
+    &>img:last-child {
+        position: absolute;
+        bottom: -9.4rem;
+    }
+}
