@@ -1,0 +1,47 @@
+.projects {
+    padding-block: 7.2rem 14.4rem;
+    border: 10px solid tomato;
+}
+
+.projects .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
+    gap: 2.4rem;
+
+
+    figure {
+        padding: 1.2rem;
+        border-radius: 1.2rem;
+        background-color: var(--gray-300);
+
+        transition: border .3s;
+
+        img {
+            border-radius: 8px;
+        }
+
+        figcaption {
+            margin-top: 2rem;
+            text-align: left;
+
+            h3 {
+                font: var(--title-sm);
+                color: var(--gray-600);
+                margin-bottom: 8px;
+            }
+
+            p {
+                font: var(--text-sm);
+                color: var(--gray-500);
+                margin-bottom: 6px;
+            }
+        }
+
+    }
+
+    figure:hover {
+        border: 1.5px solid var(--gray-400);
+        cursor: pointer;
+    }
+}
