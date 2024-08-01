@@ -1,13 +1,12 @@
 .projects {
     padding-block: 7.2rem 14.4rem;
-    border: 10px solid tomato;
 
     figure {
         padding: 1.2rem;
         border-radius: 1.2rem;
         background-color: var(--gray-300);
 
-        transition: border .3s;
+        transition: .2s;
 
         img {
             border-radius: 8px;
@@ -33,7 +32,7 @@
     }
 
     figure:hover {
-        border: 1.5px solid var(--gray-400);
+        outline: 1px solid var(--gray-400);
         cursor: pointer;
     }
 }
