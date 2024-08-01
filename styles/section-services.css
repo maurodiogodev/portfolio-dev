@@ -1,0 +1,38 @@
+.services {
+    background-color: var(--gray-100);
+    padding-block: 8.8rem 12rem;
+}
+
+.cards-wrapper {
+
+    figure {
+        padding: 2rem;
+        border-radius: 1.2rem;
+        border: 1px solid var(--gray-200);
+
+        img {
+            display: flex;
+            justify-content: flex-start;
+
+            margin-bottom: 4rem;
+        }
+
+        figcaption {
+            margin-bottom: 2rem;
+            text-align: left;
+
+
+            h3 {
+                font: var(--title-sm);
+                color: var(--gray-600);
+                margin-bottom: 8px;
+            }
+
+            p {
+                font: var(--text-sm);
+                color: var(--gray-500);
+                margin-bottom: 6px;
+            }
+        }
+    }
+}

@@ -68,3 +68,11 @@ ul {
         margin-bottom: 5.6rem;
     }
 }
+
+
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
+    gap: 2.4rem;
+}
